@@ -1,10 +1,59 @@
 @import "https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css";
 
 html {
-    margin: 25px;
     background-color: lightblue;
     font-family: verdana;
     font-size: 20px;
+    margin: 0;
+    padding: 0;
+}
+
+/* ── Navigation bar ── */
+nav.site-nav {
+    background-color: #1a4f66 !important;
+    padding: 14px 28px !important;
+    border-top: 4px solid #0d2f3f !important;
+    border-bottom: 4px solid #0d2f3f !important;
+    display: flex !important;
+    gap: 24px !important;
+    align-items: center !important;
+    margin: 0 !important;
+    width: 100% !important;
+    box-sizing: border-box !important;
+}
+
+nav.site-nav a {
+    color: #ffffff !important;
+    text-decoration: none !important;
+    font-weight: bold !important;
+    font-size: 18px !important;
+    padding: 6px 14px !important;
+    border-radius: 4px !important;
+    border: 2px solid rgba(255,255,255,0.3) !important;
+    transition: background-color 0.2s !important;
+}
+
+nav.site-nav a:hover {
+    background-color: #0d2f3f !important;
+    border-color: #ffffff !important;
+}
+
+/* ── Main content container ── */
+.main-content {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 0 40px;
+    background-color: lightblue;
+}
+
+/* ── Images ── */
+img {
+    max-width: 280px;
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    display: block;
+    margin: 12px 0 12px 15px;
 }
 
 h3 {
